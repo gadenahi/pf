@@ -1,0 +1,16 @@
+#navbar {
+    width: 100%;
+    position: fixed;
+    background-color:#F8F8F8;
+    z-index: 9998;
+}
+  
+#responsiveMenu a{
+    color: darkblue;
+    font-family: Helvetica;
+    font-weight: bold;
+}
+
+#responsiveMenu ul{
+    margin-left: auto;
+}

@@ -1,0 +1,97 @@
+
+#certificates{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 60px;
+  }
+
+.certificate-section {
+    margin-left:auto;
+    margin-right: auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}  
+
+.certificate {
+    display: inline-block;
+    vertical-align: middle;
+    line-height: 50px;
+    width: 600px;
+    height: 50px;
+    margin: 5px 5px;
+    font-family: Helvetica;
+    font-weight: bold;
+    color: white;
+    font-size: 16px;
+    text-decoration: none;
+    border-radius: 10px;
+    box-shadow: 3px 3px rgba(0, 0, 0, 0.25);
+}  
+  
+.certificate:hover {
+    background-color: cyan;
+    text-decoration: none;
+    color:black;
+}
+
+.hackerrank {
+  background-color: #169016
+}
+
+.ibm {
+    background-color: black
+}
+  
+.google {
+    background-color: lightcoral
+}
+  
+.freecodecamp {
+    background-color: rgb(27,27,50)
+}
+
+
+@media (max-width: 770px){
+    #certificates{
+      width: 100%;
+      max-width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    .certificate-section {
+      display: block;
+    }  
+
+    .certificate{
+      width: 95%;
+      padding: 0 5px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 16px;
+    }
+}
+  
+@media (max-width: 500px){  
+    #certificates{
+      padding-top: 20px;
+      width: 90%;
+      max-width: 90%;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    .certificate{
+      width: 95%;
+      max-width: 95%;
+      vertical-align: middle;
+      line-height: 30px;
+      height: 30px;
+      margin-left: auto;
+      margin-right: auto;
+      font-size: 14px;
+    }
+  }

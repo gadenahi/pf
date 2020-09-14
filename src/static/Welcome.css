@@ -1,0 +1,67 @@
+#welcome-section {
+    padding-top: 20vh;
+    min-height: 620px;
+    text-align: center;
+    background-color: #e0ebe8;
+}
+  
+#welcome-section span{
+    opacity: 1;
+    font-family: Helvetica;
+    font-size: 45px;
+    font-weight: bold;
+    color:darkblue; 
+}
+
+#welcome-section p{
+  opacity: 1;
+  font-family: Helvetica;
+  font-size: 45px;
+  font-weight: bold;
+  color:darkblue; 
+}
+
+#welcome-section .Cursor {
+  opacity: 0;
+}
+
+@media (max-width: 770px){
+    #welcome-section {
+      padding-top: 20vh;
+      min-height: 15vh;
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #welcome-section span{
+      font-size: 24px;
+    }
+
+    #welcome-section p{
+      font-size: 24px;
+    }
+}
+
+@media (max-width: 500px){
+    #welcome-section {
+      padding-top: 20vh;
+      min-height: 15vh;
+      width: 100%;
+      max-width: 100%;
+      text-align: center;
+      margin-left: auto;
+      margin-right: auto;
+    }
+  
+    #welcome-section span{
+      font-size: 24px;
+    }
+
+    #welcome-section p{
+      font-size: 24px;
+      padding-bottom:30px;
+    }
+}  
