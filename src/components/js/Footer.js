@@ -1,13 +1,13 @@
-import React, {useState} from 'react';
+import React, { useState } from 'react';
 import '../../static/Footer.css'
 
 
 function Footer() {
   const [showScroll, setShowScroll] = useState(false)
   const checkScrollTop = () => {
-    if (!showScroll && window.pageYOffset > 400){
+    if (!showScroll && window.pageYOffset > 400) {
       setShowScroll(true)
-    } else if (showScroll && window.pageYOffset <= 400){
+    } else if (showScroll && window.pageYOffset <= 400) {
       setShowScroll(false)
     }
   };
@@ -17,7 +17,7 @@ function Footer() {
   }
 
   window.addEventListener('scroll', checkScrollTop)
-  
+
   return (
     <div id="footer">
       <button id="pagetop" onClick={scrollTop} style={{ display: showScroll ? 'flex' : 'none' }}>

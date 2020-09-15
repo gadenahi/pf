@@ -6,7 +6,7 @@ import ScrollAnimation from 'react-animate-on-scroll'
 
 function Skill() {
   const skillsData = data['skills']
-  
+
   const skills = skillsData.map((data) => (
     <ScrollAnimation key={data} animateIn="fadeIn" animateOnce={true}>
       <div className="skill">{data}</div>
@@ -18,7 +18,7 @@ function Skill() {
       <h2 className='sub-title'>SKILLS</h2>
       <div className="skills-section">
         {skills}
-      </div>  
+      </div>
     </div>
   );
 }

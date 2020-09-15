@@ -33,14 +33,14 @@ function Project() {
 
   const projects = activeProjects.map((data) => (
     <ScrollAnimation key={data['id']} animateIn="fadeIn" animateOnce={true}>
-    <div id={`project${data['id']}`} className="project" data-category={`[${data['category']}]`}>
-      <a href={data['url']}>
-        <img className="project-pic" src={data['image']} alt="project"/>
-        <div className="mask">
-          <div className="caption"><MultiLineText>{data['caption']}</MultiLineText></div>
-        </div>
-      </a>
-    </div>
+      <div id={`project${data['id']}`} className="project" data-category={`[${data['category']}]`}>
+        <a href={data['url']}>
+          <img className="project-pic" src={data['image']} alt="project" />
+          <div className="mask">
+            <div className="caption"><MultiLineText>{data['caption']}</MultiLineText></div>
+          </div>
+        </a>
+      </div>
     </ScrollAnimation>
   ))
 

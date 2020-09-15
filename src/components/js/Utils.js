@@ -4,8 +4,8 @@ import React from 'react';
 export class MultiLineText extends React.Component {
   render() {
     const renderTexts = () => {
-      if (typeof(this.props.children) === "string") {
-        return this.props.children.split("\n").map((m,i) => <span key={i}>{m}<br/></span>)
+      if (typeof (this.props.children) === "string") {
+        return this.props.children.split("\n").map((m, i) => <span key={i}>{m}<br /></span>)
       } else {
         return "";
       }
@@ -24,6 +24,6 @@ export function getActiveData(data, filter) {
     return data
   }
   return data.filter((d) =>
-  d.category.includes(filter)
+    d.category.includes(filter)
   )
 }

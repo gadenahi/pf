@@ -1,4 +1,4 @@
-import React, { useState, useEffect }  from 'react';
+import React, { useState, useEffect } from 'react';
 import '../../static/Certificate.css'
 import data from '../data/data'
 import ScrollAnimation from 'react-animate-on-scroll'
@@ -18,7 +18,7 @@ function Certificate() {
     const value = event.currentTarget.dataset.filter
     setCategory(value)
   }
-  
+
   const certificateFilters = certificateFiltersData.map((data) => (
     <ScrollAnimation key={data} animateIn="fadeIn" animateOnce={true}>
       <button
@@ -28,7 +28,7 @@ function Certificate() {
       >
         {data}
       </button>
-    </ScrollAnimation>  
+    </ScrollAnimation>
   ));
 
   const orgFilters = orgFiltersData.map((data) => (
@@ -40,13 +40,13 @@ function Certificate() {
       >
         {data}
       </button>
-    </ScrollAnimation>  
-  ));  
+    </ScrollAnimation>
+  ));
 
   const certificates = activeCertificates.map((data) => (
     <ScrollAnimation key={data['id']} animateIn="fadeIn" animateOnce={true}>
       <a id={`certificate${data['id']}`} className={`certificate ${data['org']}`} href={data['url']} data-category={`[${data['category']}]`}>{data['caption']}</a>
-    </ScrollAnimation>  
+    </ScrollAnimation>
   ))
 
   return (
