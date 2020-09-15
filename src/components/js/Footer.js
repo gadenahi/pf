@@ -20,7 +20,11 @@ function Footer() {
   
   return (
     <div id="footer">
-      <div id="pagetop" onClick={scrollTop} style={{display: showScroll ? 'flex' : 'none'}}><a href="/#"><i className="" aria-hidden="true"></i> </a></div>
+      <button id="pagetop" onClick={scrollTop} style={{ display: showScroll ? 'flex' : 'none' }}>
+        <a href="#home">
+          <i className="" aria-hidden="true"></i>
+        </a>
+      </button>
       <p>Inspired by Hideaki Nagaya</p>
     </div>
   )

@@ -9,7 +9,7 @@
     margin-top: -50px;
     margin-bottom: 40px;
     height: 100%;
-    width: 600px;
+    width: 700px;
     margin-left:auto;
     margin-right: auto;
     display: flex;
@@ -28,6 +28,7 @@
     margin-right: 5px;
     font-size: 20px;
     opacity: 0.7;
+    width: 120px;
 }
   
 .btns-filter:hover {
@@ -172,8 +173,8 @@
     }
   
     .project-btns {
-      max-width: 80%;
-      width: 80%;
+      max-width: 100%;
+      width: 100%;
       margin-left: auto;
       margin-right: auto;    
     }
@@ -188,11 +189,13 @@
 
     .btns-filter {
       margin-top: 10px;
-      font-size: 14px;
+      font-size: 13px;
     }
   
     .project {
       margin: 5px auto;
+      max-width: 100%;
+      width: 100%;
     }
   
     .sub-title{

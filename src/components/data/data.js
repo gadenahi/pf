@@ -1,4 +1,4 @@
-const project_filters = ["all", "python", "flask", "javascript", "node", "express", "jquery", "react", "d3", "postgresql", "chai", "matplotlib", "scipy", "scikitlearn", "tensorflow", "datascience", "jupyternotebooks"]
+const project_filters = ["all", "python", "flask", "javascript", "node", "express", "jquery", "react", "d3", "postgresql", "chai", "matplotlib", "scipy", "scikitlearn", "tensorflow", "datascience", "notebooks"]
 
 const projects = [
   {

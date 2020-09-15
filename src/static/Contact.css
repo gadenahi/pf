@@ -1,5 +1,5 @@
 
-#contact {
+#about {
     text-align: center;
     font-family: Helvetica;
     width: 800px;
@@ -12,7 +12,7 @@
     flex-direction: row
 }
   
-#contact #profile-explanation {
+#about #profile-explanation {
     font-family: Helvetica;
     font-size: 16px;
     text-align: justify;
@@ -20,7 +20,7 @@
     padding-right: 20px;
 }
   
-#contact #profile-photo {
+#about #profile-photo {
     width: 300px;
 }
   
@@ -30,7 +30,7 @@
 }
 
 @media (max-width: 770px){
-    #contact {
+    #about {
       width: 80%;
       max-width: 80%;
       margin-left: auto;
@@ -41,7 +41,7 @@
       display: block;
     }
   
-    #contact #profile-explanation {
+    #about #profile-explanation {
       margin-top: -20px;
       width: 95%;
       max-width: 95%;
@@ -49,14 +49,14 @@
       margin-right: auto;    
     }
     
-    #contact #profile-photo {
+    #about #profile-photo {
       width: 90%;
       max-width: 90%;
       margin-left: auto;
       margin-right: auto;
     }
   
-    #contact #profile-photo img{
+    #about #profile-photo img{
       width: 60%;
       max-width: 60%;
       height: auto;
@@ -66,7 +66,7 @@
   }
   
   @media (max-width: 500px){
-    #contact {
+    #about {
       margin-top: 20px;
       width: 90%;
       max-width: 90%;
@@ -79,21 +79,21 @@
       display: block;
     }
   
-    #contact #profile-explanation {
+    #about #profile-explanation {
       width: 95%;
       max-width: 95%;
       margin-left: auto;
       margin-right: auto;    
     }
     
-    #contact #profile-photo {
+    #about #profile-photo {
       width: 90%;
       max-width: 90%;
       margin-left: auto;
       margin-right: auto;
     }
   
-    #contact #profile-photo img{
+    #about #profile-photo img{
       width: 60%;
       max-width: 60%;
       height: auto;

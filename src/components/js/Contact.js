@@ -8,8 +8,8 @@ function Contact() {
   const LIImage = `${process.env.PUBLIC_URL}/imgs/LI-In-Bug.png`
 
   return (
-    <div id="contact">
-      <h2 className='sub-title'>About</h2>
+    <div id="about">
+      <h2 className='sub-title'>ABOUT</h2>
       <div id='profile'>
       <ScrollAnimation key="about" animateIn="fadeIn" animateOnce={true}>
             <div id="profile-explanation" className=''>

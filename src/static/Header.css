@@ -4,7 +4,13 @@
     background-color:#F8F8F8;
     z-index: 9998;
 }
-  
+
+.nav-toggle {
+    opacity: 0.7;
+    background-color: darkblue;
+    margin-right: auto;
+}
+
 #responsiveMenu a{
     color: darkblue;
     font-family: Helvetica;

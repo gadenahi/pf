@@ -1,26 +1,36 @@
 import React from 'react';
 import '../../static/Header.css'
+import { Navbar, Nav } from 'react-bootstrap';
+
+// const LOGO = `${process.env.PUBLIC_URL}/imgs/about.png`
 
 function Header() {
   const menus = ["Projects", "Skills", "Certificates", "About"]
 
   const navMenu = menus.map((menu) => (
-    <li key={menu} className="nav-item">
-      <a className="nav-link" href={`#${menu.toLowerCase()}`}>
-        {menu}
-      </a>
+    <li key={menu} className="nav-item" >
+      <Nav.Link href={`#${menu.toLowerCase()}`}>{menu}</Nav.Link>
     </li>
   ));
-    
+
   return (
-    <div id="navbar" className="navbar navbar-light navbar-expand-sm">
-      <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#responsiveMenu"
-        aria-controls="responsiveMenu" aria-expanded="false" aria-label="Toggle navigation">
-        <span className="navbar-toggler-icon"></span>
-      </button>
-      <div id="responsiveMenu" className="collapse navbar-collapse">
-        <ul className="navbar-nav">{navMenu}</ul>
-      </div>
+    <div id="navbar">
+      <Navbar collapseOnSelect id="responsiveMenu" expand="lg" variant="dark">
+        {/* <Navbar.Brand href="#"> */}
+        {/* <img
+          src={LOGO}
+          width="30"
+          height="30"
+          alt="React Bootstrap logo"
+      /> */}
+        {/* </Navbar.Brand> */}
+        <Navbar.Toggle className="nav-toggle" aria-controls="responsive-navbar-nav" />
+        <Navbar.Collapse id="responsive-navbar-nav">
+          <Nav className="mr-auto">
+            {navMenu}
+          </Nav>
+        </Navbar.Collapse>
+      </Navbar >
     </div>
   );
 }
