@@ -28,7 +28,7 @@
     margin-right: 5px;
     font-size: 20px;
     opacity: 0.7;
-    width: 120px;
+    width: 150px;
 }
   
 .btns-filter:hover {
@@ -161,8 +161,8 @@
 @media (max-width: 500px){
     #projects{
       padding-top: 10px;
-      max-width: 90%;
-      width: 90%;
+      max-width: 95%;
+      width: 95%;
       margin-left: auto;
       margin-right: auto;
     }
@@ -170,6 +170,8 @@
     .btns-section {
       margin-top: -40px;
       margin-bottom: 10px;
+      max-width: 100%;
+      width: 100%;
     }
   
     .project-btns {
@@ -190,6 +192,8 @@
     .btns-filter {
       margin-top: 10px;
       font-size: 13px;
+      margin-left: 1px;
+      margin-right: 1px;
     }
   
     .project {
