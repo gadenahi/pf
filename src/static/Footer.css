@@ -36,6 +36,7 @@
     text-align: center;
     padding: 0;
     margin: 0;
+    vertical-align: baseline;
 }
 
 #pagetop a::before{
@@ -48,7 +49,7 @@
     width: 25px;
     height: 25px;
     top: 0px;
-    bottom: 10px;
+    bottom: 20px;
     right: 0;
     left: 0;
     margin: auto;
