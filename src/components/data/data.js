@@ -2,6 +2,13 @@ const project_filters = ["all", "python", "flask", "javascript", "node", "expres
 
 const projects = [
     {
+        id: 23,
+        url: "https://gadenahi.github.io/cal-kids/",
+        image: `${process.env.PUBLIC_URL}/imgs/cal_kids.png`,
+        caption: "Cal Kids",
+        category: ["javascript", "react"]
+    },
+    {
         id: 22,
         url: "https://gadenahi.github.io/pf/",
         image: `${process.env.PUBLIC_URL}/imgs/portfolio.png`,
