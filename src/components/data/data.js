@@ -1,6 +1,13 @@
-const project_filters = ["all", "python", "flask", "javascript", "node", "express", "jquery", "react", "d3", "postgresql", "chai", "matplotlib", "scipy", "scikitlearn", "tensorflow", "datascience", "notebooks"]
+const project_filters = ["all", "python", "flask", "javascript", "node", "express", "jquery", "react", "d3", "postgresql", "chai", "restapi", "matplotlib", "scipy", "scikitlearn", "tensorflow", "datascience", "notebooks"]
 
 const projects = [
+    {
+        id: 24,
+        url: "https://github.com/gadenahi/flask_restapi",
+        image: `${process.env.PUBLIC_URL}/imgs/flask_restapi.png`,
+        caption: "Flask REST API",
+        category: ["python", "flask", "restapi"]
+    },
     {
         id: 23,
         url: "https://gadenahi.github.io/cal-kids/",
