@@ -2,6 +2,13 @@ const project_filters = ["all", "python", "flask", "javascript", "node", "expres
 
 const projects = [
     {
+        id: 25,
+        url: "https://github.com/gadenahi/car_price_prediction/blob/main/car_analysis.ipynb",
+        image: `${process.env.PUBLIC_URL}/imgs/car_price_prediction.png`,
+        caption: "Car Price Prediction",
+        category: ["python", "matplotlib", "scikitlearn", "datascience", "notebooks"]
+    },
+    {
         id: 24,
         url: "https://github.com/gadenahi/flask_restapi",
         image: `${process.env.PUBLIC_URL}/imgs/flask_restapi.png`,
