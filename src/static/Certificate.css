@@ -53,6 +53,9 @@
     background-color: rgb(27,27,50)
 }
 
+.aws {
+  background-color: orange
+}
 
 @media (max-width: 770px){
     #certificates{

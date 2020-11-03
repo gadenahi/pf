@@ -180,11 +180,18 @@ const projects = [
 
 const skills = ["python", "flask", "javascript", "react", "redux", "node", "express", "jquery", "html", "css", "scss", "bootstrap", "mongodb", "postgresql", "mongoose", "sqlalchemy", "sql", "d3", "selenium", "pandas", "numpy", "matplotlib", "seaborn", "scipy", "scikit-learn", "tensorflow", "chai", "helmetjs", "npm", "github", "jupyter notebooks", "responsive web design"]
 
-const certificate_filters = ["all", "fullstack", "datascience", "python", "javascript", "sql", "bigquery", "ibmcloud", "googlecloud"]
+const certificate_filters = ["all", "fullstack", "datascience", "python", "javascript", "sql", "bigquery", "ibmcloud", "googlecloud", "aws"]
 
-const org_filters = ["hackerrank", "ibm", "freecodecamp", "google"]
+const org_filters = ["hackerrank", "ibm", "freecodecamp", "google", "aws"]
 
 const certificates = [
+    {
+        id: 32,
+        org: "aws",
+        url: "https://www.youracclaim.com/badges/eb85320a-a433-4d44-93eb-a85330ce3182/linked_in",
+        caption: "AWS Certified Cloud Practitioner",
+        category: ["aws"]
+    },
     {
         id: 31,
         org: "hackerrank",
