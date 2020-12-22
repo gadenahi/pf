@@ -2,6 +2,13 @@ const project_filters = ["all", "python", "flask", "javascript", "node", "expres
 
 const projects = [
     {
+        id: 26,
+        url: "https://recipe-scheduler111.herokuapp.com/login?next=%2F",
+        image: `${process.env.PUBLIC_URL}/imgs/food_recipe_scheduler.png`,
+        caption: "Fod Recipe Scheduler",
+        category: ["python", "flask", "javascript", "jquery", "postgresql"]
+    },
+    {
         id: 25,
         url: "https://github.com/gadenahi/car_price_prediction/blob/main/car_analysis.ipynb",
         image: `${process.env.PUBLIC_URL}/imgs/car_price_prediction.png`,
