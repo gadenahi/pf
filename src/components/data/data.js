@@ -193,6 +193,27 @@ const org_filters = ["hackerrank", "ibm", "freecodecamp", "google", "aws"]
 
 const certificates = [
     {
+        id: 35,
+        org: "hackerrank",
+        url: "https://www.hackerrank.com/certificates/d4ac27fc8915",
+        caption: "Rest API (Intermediate)",
+        category: ["hackerrank", "python"]
+    },
+    {
+        id: 34,
+        org: "hackerrank",
+        url: "https://www.hackerrank.com/certificates/2716f7a6aed6",
+        caption: "SQL",
+        category: ["hackerrank", "sql"]
+    },
+    {
+        id: 33,
+        org: "hackerrank",
+        url: "https://www.hackerrank.com/certificates/f89686397a54",
+        caption: "CSS",
+        category: ["hackerrank"]
+    },
+    {
         id: 32,
         org: "aws",
         url: "https://www.youracclaim.com/badges/eb85320a-a433-4d44-93eb-a85330ce3182/linked_in",
