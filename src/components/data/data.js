@@ -202,8 +202,8 @@ const certificates = [
     {
         id: 34,
         org: "hackerrank",
-        url: "https://www.hackerrank.com/certificates/2716f7a6aed6",
-        caption: "SQL",
+        url: "https://www.hackerrank.com/certificates/76b8b7245c31",
+        caption: "SQL (Intermediate)",
         category: ["hackerrank", "sql"]
     },
     {
