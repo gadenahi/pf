@@ -23,7 +23,9 @@ function Welcome() {
             1000,
             "Coding",
             1000,
-            "A Software Engineer",
+            "Data Analytics",
+            1000,
+            "A Data Scientist and Software Engineer",
             1000,
           ]}
         />

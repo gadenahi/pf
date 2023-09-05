@@ -2,6 +2,13 @@ const project_filters = ["all", "python", "flask", "javascript", "node", "expres
 
 const projects = [
     {
+        id: 27,
+        url: "https://github.com/gadenahi/Sailfort_Motors_project_lab/blob/main/Activity_%20Course%207%20Salifort%20Motors%20project%20lab.ipynb",
+        image: `${process.env.PUBLIC_URL}/imgs/xgboost2-importance.png`,
+        caption: "Google Advanced Data Analytics Sailfort Motors Project",
+        category: ["python", "matplotlib", "scikitlearn", "datascience", "notebooks"]
+    },
+    {
         id: 26,
         url: "https://recipe-scheduler111.herokuapp.com/login?next=%2F",
         image: `${process.env.PUBLIC_URL}/imgs/food_recipe_scheduler.png`,
@@ -192,6 +199,13 @@ const certificate_filters = ["all", "fullstack", "datascience", "python", "javas
 const org_filters = ["hackerrank", "ibm", "freecodecamp", "google", "aws"]
 
 const certificates = [
+    {
+        id: 36,
+        org: "google",
+        url: "https://www.coursera.org/account/accomplishments/professional-cert/P4CBWLJUR6YQ",
+        caption: "Google Advanced Data Analytics",
+        category: ["google", "python", "pandas", "numpy", "matplotlib", "seaborn", "scikit-learn", "jupyter notebooks"]
+    },
     {
         id: 35,
         org: "hackerrank",
