@@ -9,7 +9,7 @@ function Welcome() {
     <div>
       <section id="welcome-section">
         <Typist startDelay={1000} >
-          <span id="welcome-hello">Hello Everyone</span><br /><br />
+          <span id="welcome-hello">Hello everyone</span><br /><br />
           <span>I'am Hideaki</span><br /><br />
         </Typist>
         <br />

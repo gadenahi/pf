@@ -5,7 +5,7 @@ const projects = [
         id: 27,
         url: "https://github.com/gadenahi/Sailfort_Motors_project_lab/blob/main/Activity_%20Course%207%20Salifort%20Motors%20project%20lab.ipynb",
         image: `${process.env.PUBLIC_URL}/imgs/xgboost2-importance.png`,
-        caption: "Google Advanced Data Analytics Sailfort Motors Project",
+        caption: "Google Advanced\nData Analytics\nSailfort Motors Project",
         category: ["python", "matplotlib", "scikitlearn", "datascience", "notebooks"]
     },
     {

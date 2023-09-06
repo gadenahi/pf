@@ -13,10 +13,10 @@ function Contact() {
       <div id='profile'>
         <ScrollAnimation key="about" animateIn="fadeIn" animateOnce={true}>
           <div id="profile-explanation" className=''>
-            <p>I am a Software Engineer having a customer first mind with the background
+            <p>I am a Data Scientist and Software Engineer having a customer first mind with the background
             of the multiple customer facing roles of Product Management, Product Marketing,
                     New Business Development and System Engineer. </p>
-            <p>Let's enjoying and challenging Software Development with me</p>
+            <p>Let's enjoying and challenging Data Scientist and Software Development with me</p>
           </div>
         </ScrollAnimation>
         <ScrollAnimation key="about-photo" animateIn="fadeIn" animateOnce={true}>
