@@ -2,6 +2,20 @@ const project_filters = ["all", "python", "flask", "javascript", "node", "expres
 
 const projects = [
     {
+        id: 29,
+        url: "https://github.com/gadenahi/TensorFlow_by_different_api/blob/main/TensorFlow_by_different_api.ipynb",
+        image: `${process.env.PUBLIC_URL}/imgs/TensorFlow_by_different_api.png`,
+        caption: "TensorFlow by\ndifferent API",
+        category: ["python", "matplotlib", "tensorflow", "datascience", "notebooks"]
+    },
+    {
+        id: 28,
+        url: "https://github.com/gadenahi/sklearn_different_class_test/blob/main/decisiontree_randomforest_xgboost_test.ipynb",
+        image: `${process.env.PUBLIC_URL}/imgs/sklearn_different_class_test.png`,
+        caption: "Test by DecisionTree,\nRandomForest,\nand XGBoost",
+        category: ["python", "matplotlib", "scikitlearn", "datascience", "notebooks"]
+    },
+    {
         id: 27,
         url: "https://github.com/gadenahi/Sailfort_Motors_project_lab/blob/main/Activity_%20Course%207%20Salifort%20Motors%20project%20lab.ipynb",
         image: `${process.env.PUBLIC_URL}/imgs/xgboost2-importance.png`,
@@ -10,7 +24,7 @@ const projects = [
     },
     {
         id: 26,
-        url: "https://recipe-scheduler111.herokuapp.com/login?next=%2F",
+        url: "https://github.com/gadenahi/recipe-scheduler",
         image: `${process.env.PUBLIC_URL}/imgs/food_recipe_scheduler.png`,
         caption: "Food Recipe Scheduler",
         category: ["python", "flask", "javascript", "jquery", "postgresql"]
@@ -45,14 +59,14 @@ const projects = [
     },
     {
         id: 21,
-        url: "https://docmanage111.herokuapp.com/",
+        url: "https://github.com/gadenahi/doc_manage",
         image: `${process.env.PUBLIC_URL}/imgs/report_shopping_site.png`,
         caption: "Report shopping site",
         category: ["python", "flask", "javascript", "jquery", "postgresql", "matplotlib"]
     },
     {
         id: 20,
-        url: "https://blog-site111.herokuapp.com/",
+        url: "https://github.com/gadenahi/blog-site",
         image: `${process.env.PUBLIC_URL}/imgs/blog_site.png`,
         caption: "Blog site",
         category: ["python", "flask", "javascript", "jquery", "postgresql"]
